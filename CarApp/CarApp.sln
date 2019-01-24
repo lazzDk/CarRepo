@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp", "CarApp\CarApp.csproj", "{3D991EB7-2670-43C7-837C-59B968DF06FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parts", "Parts", "{9D24161C-4A67-4CBB-8426-61DDF2139F2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngineParts", "EngineParts\EngineParts\EngineParts\EngineParts.csproj", "{83C6A677-6F11-4B48-83CC-41FED10278F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{030C4CC5-3AA4-44CF-9F35-F20012BEE3D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngineApp", "Engine\EngineApp\EngineApp\EngineApp.csproj", "{87BB1B28-EF05-408E-9C0A-ACC0723D124F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,21 @@ Global
 		{3D991EB7-2670-43C7-837C-59B968DF06FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D991EB7-2670-43C7-837C-59B968DF06FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D991EB7-2670-43C7-837C-59B968DF06FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C6A677-6F11-4B48-83CC-41FED10278F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C6A677-6F11-4B48-83CC-41FED10278F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C6A677-6F11-4B48-83CC-41FED10278F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C6A677-6F11-4B48-83CC-41FED10278F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BB1B28-EF05-408E-9C0A-ACC0723D124F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BB1B28-EF05-408E-9C0A-ACC0723D124F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BB1B28-EF05-408E-9C0A-ACC0723D124F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BB1B28-EF05-408E-9C0A-ACC0723D124F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83C6A677-6F11-4B48-83CC-41FED10278F1} = {9D24161C-4A67-4CBB-8426-61DDF2139F2A}
+		{87BB1B28-EF05-408E-9C0A-ACC0723D124F} = {030C4CC5-3AA4-44CF-9F35-F20012BEE3D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C145617-735F-4183-B746-7184D113F8F6}
