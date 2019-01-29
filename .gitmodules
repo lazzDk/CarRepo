@@ -1,8 +1,8 @@
 [submodule "CarApp/EngineParts"]
 	path = CarApp/EngineParts
-	url = https://github.com/lazzDk/EngineParts.git,
+	url = https://github.com/lazzDk/EngineParts.git
 	branch = development
 [submodule "CarApp/Engine"]
 	path = CarApp/Engine
-	url = https://github.com/lazzDk/EngineRepo.git,
+	url = https://github.com/lazzDk/EngineRepo.git
 	branch = development
